@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 Explorers</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Bienvenidos Explorers de Mexico</h1>
+    <h2>Bienvenidos Explorers de Colombia</h2>
+    <h3>Bienvenidos Explorers de Peru</h3>
+    <h4>Bienvenidos Explorers de Venezuela</h4>
+    <h5>Bienvenidos Explorers de Latam</h5>
+    <h6>Bienvenidos Explorers de Argentina</h6>
+
+
+    <!-- Parrafos -->
+    <p>Este es un parrafo para los explorers Este es un parrafo para los explorersEste <br> es un parrafo para los explorers Este es
+    un parrafo para los explorers <br> Este es un parrafo para los explorersEste es un parrafo para los explorers</p>
+
+    <p>La informacion que nosotros queramos poner en un parrafo de HTML se mostrara aqui <br> se acaba de hacer un salto de linea para que no se vea todo apretado </p>
+
+    <!-- Links / Enlaces -->
+    <a href="https://github.com/Launch-X-Latam" target="_blank">Link a LaunchX</a>
+    <br>
+
+    <!-- Imágenes -->
+    <a href="https://www.youtube.com/watch?v=Vfw7PONFBTw" target="_blank">
+    <img src="https://i.imgur.com/84QT6os.jpeg" alt="Perritos lindos" width="350px" height="350px">
+    </a>
+
+
+    <!-- Tablas -->
+    <table>
+        <tr>
+            <th>Compañía</th>
+            <th>Contacto</th>
+            <th>País</th>
+        </tr>
+        <tr>
+            <td>Pepsico</td>
+            <td>Maria Anders</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Coca cola</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Shell</td>
+            <td>Alicia Maldonado</td>
+            <td>Colombia</td>
+        </tr>
+    </table>
+
+    <!-- Listas -->
+    <ul>
+        <li>Café</li>
+        <li>Arroz</li>
+        <li>leche</li>
+        <li>huevos</li>
+    </ul>
+
+    <ol>
+        <li>Alumno1</li>
+        <li>Alumno2</li>
+        <li>Alumno3</li>
+    </ol>
+
+    <dl>
+        <dt>Enchiladas</dt>
+        <dd>- Tortilla frita con salsa, rellena de pollo</dd>
+        <dt>Molletes</dt>
+        <dd>- Bolillo con frijoles y queso</dd>
+
+    </dl>
+
+</body>
+</html>
