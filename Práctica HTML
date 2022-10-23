@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONDA IMACULADA</title>
+</head>
+<body>
+    <header>
+        <h1>Fonda Imaculada, desde 2022</h1>
+    </header>
+<section>
+    <img src="./Santa-.png" alt="logo fonda inmaculada"/>
+
+    <h2>Menú</h2>
+
+    <h3>Tacos</h3>
+
+    <ul>
+        <li>Pastor...............................$36</li>
+        <li>Bistek...............................$36</li>
+        <li>Tripa................................$40</li>
+        <li>Barbacoa.............................$40</li>
+        <li>Champiñon............................$36</li>
+    </ul>
+    <p>Cilantro, cebolla, rabanitos y limón</p>
+
+    <h3>Sopes</h3>
+    <ul>
+        <li>Pastor...............................$36</li>
+        <li>Bistek...............................$40</li>
+        <li>Pollo................................$40</li>
+        <li>Champiñon............................$36</li>
+    </ul>
+
+    <h3>Quesadillas</h3>
+    <dt>
+        <dt>Quesadilla de Bistek.................$40</dt>
+        <dd>-Tortilla frita con salsa, carne de res, verdura, crema y queso</dd>
+
+        <dt>Quesadilla de Pastor.................$36</dt>
+        <dd>-Tortilla de frita con salsa, chuleta adobada, verdura, crema y queso</dd>
+        
+        <dt>Quesadilla de Pollo..................$36</dt>
+        <dd>-Tortilla frita con salsa, pechuga deshebrada, verdura, crema y queso</dd>
+    </dt>
+
+
+
+    <h3>Tacos dorados</h3>
+    <dt> 
+        <dt>Tacos dorados de pollo................$36</dt>
+        <dd>Tortilla frita, pechuga deshebrada, jitomate, cebolla, aguacate, consome de pollo</dd>
+
+        <dt>Consomé de pollo......................$15</dt>
+        <dd>Consomé de pollo con una pieza puede ser patita o molleja</dd>
+    </dt>
+</section>
+    <hr>
+
+<section>
+
+   <h2>Ubicacíon</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+        <th>Nombre</th>
+        <th>Ubicación</th>
+        <th>Horarios</th>       
+        </tr>
+            <tr>
+            <dt>Centro</dt>
+            <dt><a href="https://goo.gl/maps/pBS6gwLTE6XDqzX98" target="_blank">Pedro Moreno 519, Centro, 37000 León, Gto.</a></dt>
+            <dt>L - D 24H</dt>
+             </tr>
+        <tr>
+            <dt>Sur</dt>
+            <dt><a href="https://goo.gl/maps/UhS1JuWUDXsmpJqRA" target="_blank">37680 Los Sauces, 37683 León, Gto.</a></dt>
+            <dt>L - D 24H</dt>
+        </tr>
+        <tr>
+            <dt>Norte</dt>
+            <dt><a href="https://goo.gl/maps/btQ9UMAwWgjWFvEm9" target="_blank">Valle del silencio #7 (por el tinaco rojo La, Blvd. Paseo Ixtapa, 40880 Zihuatanejo, Gro.</a></dt>
+            <dt>L - D 24H</dt>
+        </tr>
+    </table>
+
+</section> 
+
+    <hr>
+
+<section>
+
+    <h2>Pedidos</h2>
+    <h3>Has tu pedido aquí</h3>
+
+    <p>¿De que taqueria quieres?</p>
+    <select>
+        <option value="Norte">Norte</option>
+        <option value="Centro">Centro</option>
+        <option value="Sur">Sur</option>
+    </select>
+
+    <p>¿De que tacos quieres?</p>
+    <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+    <label for="Pastor">Pastor</label>
+    <input type="number" id="PastorNumber" name="PastorNumber" placeholder="¿Cuantos?">
+    <br>
+    <input type="checkbox" id="Bistek" name="Bistek" value="Bistek">
+    <label for="Bistek">Bistek</label>
+    <input type="number" id="BistekNumber" name="BistekNumber" placeholder="¿Cuantos?">
+    <br>
+    <input type="checkbox" id="Tripa" name="Tripa" value="Tripa">
+    <label for="Tripa">Tripa</label>
+    <input type="number" id="TripaNumber" name="TripaNumber" placeholder="¿Cuantos?">
+    <br>
+    <input type="checkbox" id="Barbacoa" name="Barbacoa" value="Barbacoa">
+    <label for="Barbacoa">Barbacoa</label>
+    <input type="number" id="BarbacoaNumber" name="BarbacoaNumber" placeholder="¿Cuantos?">
+    <br>
+    <input type="checkbox" id="Champiñon" name="Champiñon" value="Champiñon">
+    <label for="Champiñon">Champiñon</label>
+    <input type="number" id="ChampiñonNumber" name="ChampiñonNumber" placeholder="¿Cuantos?">
+    
+    <br><br>
+
+    <label for="Nombre">Nombre:</label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+    <br><br>
+
+    <label for="Teléfono">Teléfono:</label>
+    <input type="text" id="Teléfono" name="Teléfono" placeholder="¿Tu teléfono?">
+    <br><br>
+
+    <label for="Dirección">Dirección:</label>
+    <input type="text" id="Dirección" name="Dirección" placeholder="¿Tu Dirección?">
+    
+    <button type="submit">Enviar pedido</button>
+
+</section>   
+
+
